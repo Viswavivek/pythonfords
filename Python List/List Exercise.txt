@@ -9,3 +9,16 @@
 5. In nested List find the longest list
 [[1,2,3],[5],[24,36],[9,10,11,234,5,45,7,67],[[9,10,11,234,5,45,7,67]]]
 6.From the above list calculate sum of each sublist and print the maxium.
+7. Write a Python program to multiply all the items in a list.
+  [35,78,35,36,37,78,89,23,12,45,3,5,7,8,90,2]
+8. Write a Python program to get the largest number from a list. Refer question 2 for data.
+9. Write a Python program to get the smallest number from a list. Refer question 2 for data.
+10.Write a Python program to count the number of strings from a given list of strings. The string length is 2 or more and the first and last characters are the same.
+Sample List : ['abc', 'xyz', 'aba', '1221']
+Expected Result : 2
+11. Write a Python program to remove duplicates from a list.
+12. Write a Python program to clone or copy a list.
+13. Write a Python program to find the list of words that are longer than n from a given list of words.
+ example:['quick', 'brown', 'jumps', 'over', 'lazy']
+
+
