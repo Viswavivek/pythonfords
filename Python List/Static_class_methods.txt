@@ -1,0 +1,8 @@
+1. Write a program that prints the numbers from 1 to 100. But for multiples of three, print Fizz instead of the number, and multiples of five, print Buzz. For numbers that are multiples of both three and five, print FizzBuzz.
+2. Create a class with a constructor that initializes instance variables. Define a class method to create an instance with default values.
+3. Implement a static method that performs a utility function related to the class but doesn't depend on instance-specific data.
+4. Create a class with a class variable to keep track of the number of instances created. Update the class variable in the constructor.
+5. Implement a class with a static method that performs a basic calculation (e.g., addition, subtraction) without relying on instance-specific data.
+6. Design a class with a class method that acts as a factory, creating and returning instances based on certain criteria.
+7. Create a class with a static method that performs string manipulation (e.g., reversing, converting to uppercase) without relying on instance-specific data.
+8. Implement a class with a class method that validates input parameters before creating an instance.
