@@ -1,0 +1,8 @@
+1.Create a base class and a derived class. Demonstrate inheritance by inheriting attributes and methods from the base class in the derived class.
+2.Create two base classes and a derived class that inherits from both base classes. Demonstrate the use of multiple inheritance.
+3. Implement the __str__ and __repr__ methods in a class to control its string representation when printed.
+4.Overload the + operator in a class to perform a custom addition operation.
+5.Implement the __eq__ and __lt__ methods in a class to enable custom object comparisons.
+6.Create a class that acts as a context manager using the __enter__ and __exit__ methods.
+7.Implement the __iter__ and __next__ methods in a class to make instances iterable using a for loop.
+8.Implement the __add__, __sub__, __mul__, and __div__ methods in a class to enable custom arithmetic operations.
