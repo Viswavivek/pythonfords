@@ -6,3 +6,4 @@
 6.Create a class that acts as a context manager using the __enter__ and __exit__ methods.
 7.Implement the __iter__ and __next__ methods in a class to make instances iterable using a for loop.
 8.Implement the __add__, __sub__, __mul__, and __div__ methods in a class to enable custom arithmetic operations.
+9.Implement the __iter__ and __next__ methods in a class to make instances iterable using a for loop.
