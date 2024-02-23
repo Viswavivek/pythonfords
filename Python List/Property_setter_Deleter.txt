@@ -1,0 +1,11 @@
+1.Create a class with a basic property and a getter method.
+2.Implement a setter method for the class property to update its value.
+3.Implement a deleter method for a class property to delete its value.
+4.Create a property that is computed based on other attributes in the class.
+5.Implement a setter method that performs validation before updating the property.
+6.Implement a property that is lazily initialized on the first access.
+7.Create a class with chained setters for multiple attributes.
+8.Implement a setter with logging to track changes made to the property.
+9.Create a class with a property that can be deleted using a deleter method.
+10.Implement a class attribute with a setter method to perform validation.
+11.Create a cached property that stores the result after the first computation.
