@@ -1,0 +1,6 @@
+1. Load a CSV file into a Pandas DataFrame using read_csv.
+2. Display the first 20 rows of the DataFrame using head.
+3. Display the last 15 rows of the DataFrame using tail.
+4. Get the shape (number of rows and columns) of the DataFrame using shape.
+5. Set the maximum number of rows to display using
+7. 
