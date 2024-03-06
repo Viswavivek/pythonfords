@@ -3,4 +3,7 @@
 3. Display the last 15 rows of the DataFrame using tail.
 4. Get the shape (number of rows and columns) of the DataFrame using shape.
 5. Set the maximum number of rows to display using
-7. 
+7. Set the maximum number of columns to display using 
+8. Print data with odd index.
+9. Print data with Even Index.
+10. Print data if index is prime number.
