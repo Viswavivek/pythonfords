@@ -1,0 +1,15 @@
+1.Load the Stack Overflow survey data into a Pandas DataFrame.
+2.Display the original column names of the DataFrame.
+3.Update the column names to be more descriptive using the rename method.
+4.Display the DataFrame with the updated column names.
+5.Use the replace method to replace specific values.
+6.Create a mapping dictionary to map existing values to new values.
+7.Use the map method to update the column based on the mapping.
+9.Choose a numerical column.
+10.Use the apply method to apply a custom function to transform the values in the column (e.g., scaling, rounding).
+11.Choose a subset of the DataFrame with numerical values.
+12.Use the applymap method to apply a custom function to each element in the subset.
+13.Sort the DataFrame based on a specific column in ascending order.
+14.Sort the DataFrame based on another column in descending order.
+15.Add a new column to the DataFrame with calculated values (e.g., sum of two existing columns, multiplication).
+16.Remove a column from the DataFrame using the drop method.
