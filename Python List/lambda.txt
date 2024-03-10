@@ -1,0 +1,11 @@
+1.Write a lambda function to add two numbers.
+2.Create a lambda function to multiply a number by 3.
+3.Write a lambda function to check if a given number is even.
+4.Create a lambda function to calculate the square of a given number.
+5.Write a lambda function to calculate the average of two numbers.
+6.Create a lambda function to check if a word starts with a specified letter.
+7.Write a lambda function to calculate the area of a rectangle given its length and width.
+8.Create a lambda function to check if a given string is a palindrome.
+9.Write a lambda function to calculate the square root of a given number.
+10.Create a lambda function to check if a given number is prime.
+11.Write a lambda function to convert a temperature from Fahrenheit to Celsius.
