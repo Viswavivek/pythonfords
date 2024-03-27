@@ -1,0 +1,12 @@
+1.Given a Polars DataFrame, filter out rows where a certain condition is met.
+2.Group the data by a certain column and compute the sum of another column.
+3. Sort the DataFrame by a specific column.
+4.Perform an inner join between two DataFrames based on a common column.
+5.Add a new column to the DataFrame based on a computation.
+6.Replace missing values in a DataFrame with a specified value.
+7.Select only certain columns from the DataFrame.
+8.Get the unique values in a specific column.
+9.Perform string operations on a column.
+10.Pivot the data based on certain columns.
+
+* use the stackoverflow survey data shared in Pandas first video.
