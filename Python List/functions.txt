@@ -1,0 +1,32 @@
+Basic (1–7)
+	1.	is_prime(n) — Return True if n is prime, else False. Handle n < 2 correctly.
+Example: is_prime(13) -> True, is_prime(1) -> False.
+	2.	reverse_string(s) — Return the reverse of string s. Must work with Unicode.
+Example: reverse_string("hello") -> "olleh".
+	3.	count_vowels(s) — Return the number of vowels (a,e,i,o,u, case-insensitive) in s.
+Example: count_vowels("Apple") -> 2.
+	4.	unique_elements(lst) — Return a list of elements preserving first-occurrence order but removing duplicates.
+Example: unique_elements([3,1,3,2]) -> [3,1,2].
+	5.	factorial(n) — Return n! for non-negative integers; raise ValueError for negatives. Use iterative approach.
+	6.	palindrome_check(s) — Return True if s (ignore spaces, punctuation, case) is a palindrome.
+Example: "A man, a plan" → False; "A man, a plan, a canal: Panama" → True.
+	7.	flatten_list(nested) — Flatten one-level nested lists: input may contain non-list items too.
+Example: flatten_list([1,[2,3],4]) -> [1,2,3,4].
+
+Intermediate (8–14)
+	8.	merge_sorted(a, b) — Merge two sorted lists a and b into a single sorted list without using sorted() or extra library functions. Handle duplicates.
+	9.	group_anagrams(words) — Group a list of lowercase words into lists of anagrams. Return list of groups (order not important).
+Example: ["eat","tea","tan","ate","nat"] -> [["eat","tea","ate"],["tan","nat"]].
+	10.	sliding_window_max(nums, k) — Given list nums and window size k, return list of maximums for each sliding window. O(n) expected.
+	11.	memoized_fib(n) — Return nth Fibonacci number using an explicit caching approach (e.g., dict), but do not use function decorators. Support n up to ~10,000 (use iterative or memoization to avoid recursion depth issues).
+	12.	partition_by(lst, predicate) — Split list into two lists: elements where predicate(x) is True and those where it’s False. Return tuple (trues, falses).
+	13.	parse_query_string(qs) — Given a URL query string like "a=1&b=2&a=3", return a dict mapping keys to a list of values: {"a":["1","3"], "b":["2"]}. Handle empty values and URL-decoding not required.
+	14.	top_k_frequent(nums, k) — Return k most frequent elements from nums. If ties, any order among tied elements is fine. Aim for better than O(n log n) if possible.
+
+Advanced (15–20)
+	15.	compose(functions) — Given a list of functions [f1, f2, ..., fn], return a new function h(x) that computes f1(f2(...(fn(x))...)). Implement composition without using any decorator syntax. Ensure compose([]) returns identity function.
+	16.	validate_args(func, *args, **kwargs) — Implement a helper that calls func(*args, **kwargs) and returns a tuple (ok, err) where ok is True and err is None if the call succeeds; if it raises TypeError because of wrong arguments, return (False, "TypeError: <message>"); otherwise re-raise the exception. (Simulate argument validation.)
+	17.	lazy_range(start, stop, step) — Implement a generator function that yields numbers like range() but able to handle very large ranges lazily. It should behave like built-in range for positive/negative steps.
+	18.	partial_apply(func, /, *fixed_args, **fixed_kwargs) — Implement a function that returns a new callable where fixed_args and fixed_kwargs are pre-bound to func. Do not use functools.partial. The returned callable should accept additional args/kwargs appended to the bound ones.
+	19.	sql_like_match(text, pattern) — Implement basic SQL LIKE pattern matching where % matches any sequence (including empty) and _ matches exactly one character. Do not use re module—write your own matcher (DP or backtracking). Examples: like("hello","h%o") -> True, like("abc","a_c") -> True.
+	20.	function_signature(func) — Return a string describing func’s signature: list positional-only, positional-or-keyword, var-positional, keyword-only, var-keyword parameters and default values if any. You may use inspect.signature for introspection but format the output yourself. Example output (format is up to you but must include categories).  
