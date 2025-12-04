@@ -1,0 +1,21 @@
+10 Python Coding Questions on Basic OOP
+
+1. Create a class Car with attributes brand and model. Write a method display_info() that prints car details. Create two objects and call the method.
+
+2. Create a class Student with a constructor that takes name and marks. Add a method is_pass() that returns True if marks ≥ 40.
+
+3. Create a class BankAccount with private attribute __balance. Add deposit(), withdraw(), and check_balance() methods. Prevent negative balance.
+
+4. Create a class Rectangle with attributes length and width. Write methods to calculate area and perimeter.
+
+5. Create a base class Animal with method make_sound(). Create subclasses Dog and Cat that override it.
+
+6. Create a class Person with attributes name and age. Add a method birthday() that increases age by 1.
+
+7. Create a class Calculator with static methods: add, subtract, multiply, divide. Call all methods without creating an object.
+
+8. Create a class Employee with class variable company_name. Show that all objects share it.
+
+9. Create a class Book with attributes title, author, price. Add a method discount(percent) to reduce price.
+
+10. Create a class Shape with method area() that raises NotImplementedError. Create Circle and Square subclasses implementing area().
