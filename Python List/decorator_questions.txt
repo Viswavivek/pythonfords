@@ -1,0 +1,21 @@
+10 Python Coding Questions on Decorators
+
+1. Write a decorator log_start_end that prints "Function started" before a function runs and "Function ended" after it finishes. Apply it to a function greet().
+
+2. Create a decorator uppercase_output that converts the string returned by a function into uppercase. Apply it to get_message().
+
+3. Write a decorator check_negative that prevents a function from running if any input argument is negative.
+
+4. Write a decorator execution_time that prints how long a function takes to execute.
+
+5. Create a decorator repeat(n) that repeats a function n times.
+
+6. Write a decorator authenticate that allows execution only if user="admin" is passed.
+
+7. Write a decorator track_calls that counts how many times a function has been called.
+
+8. Create a decorator type_check(expected_type) that ensures arguments are of the expected type.
+
+9. Write a decorator cache_result for memoization. Apply to a slow Fibonacci function.
+
+10. Create a decorator debug that logs function name, arguments, and return value.
